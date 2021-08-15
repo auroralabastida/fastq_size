@@ -1,0 +1,35 @@
+Platform,Read_Length,Sequence_format,max_reads,max_output,Chemistry_details,,Source
+Illumina MiSeq,36,single end,17000000,610000000,MiSeq Reagent Kit v2,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,25,paired end,34000000,850000000,MiSeq Reagent Kit v2,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,150,paired end,34000000,5100000000,MiSeq Reagent Kit v2,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,250,paired end,34000000,8500000000,MiSeq Reagent Kit v2,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,75,paired end,50000000,3800000000,MiSeq Reagent Kit v3,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,300,paired end,50000000,15000000000,MiSeq Reagent Kit v3,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,150,paired end,8000000,1200000000,MiSeq Reagent Kit v2 Micro,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,250,paired end,2000000,500000000,MiSeq Reagent Kit v2 Nano,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina MiSeq,150,paired end,2000000,300000000,MiSeq Reagent Kit v2 Nano,,https://emea.illumina.com/systems/sequencing-platforms/miseq/specifications.html
+Illumina NextSeq 550,150,paired end,800000000,120000000000,NextSeq 550 System High-Output Kit,,https://www.illumina.com/systems/sequencing-platforms/nextseq/specifications.html
+Illumina NextSeq 550,75,paired end,800000000,60000000000,NextSeq 550 System High-Output Kit,,https://www.illumina.com/systems/sequencing-platforms/nextseq/specifications.html
+Illumina NextSeq 550,75,single end,400000000,30000000000,NextSeq 550 System High-Output Kit,,https://www.illumina.com/systems/sequencing-platforms/nextseq/specifications.html
+Illumina NextSeq 550,150,paired end,260000000,39000000000,NextSeq 550 System Mid-Output Kit,,https://www.illumina.com/systems/sequencing-platforms/nextseq/specifications.html
+Illumina NextSeq 550,75,paired end,260000000,19500000000,NextSeq 550 System Mid-Output Kit,,https://www.illumina.com/systems/sequencing-platforms/nextseq/specifications.html
+Illumina NextSeq 1000/2000,50,paired end,800000000,40000000000,NextSeq 1000/2000 P2 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,100,paired end,800000000,80000000000,NextSeq 1000/2000 P2 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,150,paired end,800000000,120000000000,NextSeq 1000/2000 P2 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,50,single end,1100000000,55000000000,NextSeq 1000/2000 P3 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,50,paired end,2200000000,110000000000,NextSeq 1000/2000 P3 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,100,paired end,2200000000,220000000000,NextSeq 1000/2000 P3 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NextSeq 1000/2000,150,paired end,2200000000,330000000000,NextSeq 1000/2000 P3 Reagents,,https://www.illumina.com/systems/sequencing-platforms/nextseq-1000-2000/specifications.html
+Illumina NovaSeq 6000,50,paired end,1600000000,80000000000,NovaSeq Reagent Kits v1.5; Flow Cell SP,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,100,paired end,1600000000,160000000000,NovaSeq Reagent Kits v1.5; Flow Cell SP,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,150,paired end,1600000000,240000000000,NovaSeq Reagent Kits v1.5; Flow Cell SP,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,250,paired end,1600000000,400000000000,NovaSeq Reagent Kits v1.5; Flow Cell SP,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,50,paired end,3200000000,160000000000,NovaSeq Reagent Kits v1.5; Flow Cell S1,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,100,paired end,3200000000,320000000000,NovaSeq Reagent Kits v1.5; Flow Cell S1,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,150,paired end,3200000000,480000000000,NovaSeq Reagent Kits v1.5; Flow Cell S1,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,50,paired end,8200000000,410000000000,NovaSeq Reagent Kits v1.5; Flow Cell S2,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,100,paired end,8200000000,820000000000,NovaSeq Reagent Kits v1.5; Flow Cell S2,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,150,paired end,8200000000,1230000000000,NovaSeq Reagent Kits v1.5; Flow Cell S2,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,100,paired end,20000000000,2000000000000,NovaSeq Reagent Kits v1.5; Flow Cell S4,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,150,paired end,20000000000,3000000000000,NovaSeq Reagent Kits v1.5; Flow Cell S4,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
+Illumina NovaSeq 6000,35,single end,10000000000,350000000000,NovaSeq Reagent Kits v1.5; Flow Cell S4,,https://www.illumina.com/systems/sequencing-platforms/novaseq/specifications.html
