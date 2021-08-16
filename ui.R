@@ -30,12 +30,12 @@ shinyUI(fluidPage(
     sidebarLayout(
     sidebarPanel(
 
-        radioButtons("How_to", p(h4("How will we estimate?")),
+        radioButtons("How_to", p(h3("How will we estimate?")),
                  c("By sequence properties","By sequencing platform")
                  , selected = "By sequence properties"),
-
+        br(),
         conditionalPanel(
-            condition="input.How_to == 'By sequencing platform'",
+             condition="input.How_to == 'By sequencing platform'",
 
              selectInput("seq_platform",
                 label="Choose a sequencing platform",
@@ -75,6 +75,13 @@ shinyUI(fluidPage(
     )
 ),
 ),
-br(),br(),br(),br(),
-p( class="devmessage", "Developed by Aurora Labastida M. This application is open source under AGPL-3.0 licence."))
-)
+
+    br(),br(),br(),br(),
+    div( class="devmessage",
+        br(),
+        p("Developed by Aurora Labastida"),
+        HTML('<a href="https://github.com/auroralabastida/"><img src="github.png" title="GitHub account" height="60" /></a>'),
+        HTML('<a href="https://www.linkedin.com/in/aurora-labastida-mart%C3%ADnez/"><img src="linkedin.png" title="LinkedIn account" height="60" /></a>'),
+        p("Open source under AGPL-3.0 licence.")
+    ),
+))

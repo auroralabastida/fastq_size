@@ -48,9 +48,11 @@ shinyServer(function(input, output, session) {
   output$table_legend<-renderText({
 
       if(input$How_to == 'By sequence properties'){
-      sprintf("Size of a single FASTQ file with %d reads of %d bp
-             and identifiers of %d characters.",
-                input$total_reads, input$seq_len, input$seq_id_len)
+      sprintf("Size of a single FASTQ file with %s reads of %s bp
+             and identifiers of %s characters. When using a paired-end mode sequencing (for example
+             2 x %s), two files with the same characteristics will be generated (for the forward and reverse reads).",
+             as.character(input$total_reads), as.character(input$seq_len),
+             as.character(input$seq_id_len), as.character(input$seq_len))
       }
       else{
       sprintf("Maximum size of the FASTQ files produced in a single-end sequencing run of
