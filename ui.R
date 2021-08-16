@@ -20,8 +20,8 @@ shinyUI(fluidPage(
     theme="style.css",
 
     div(class="ocean",
-        titlePanel(h1("Size of FASTQ sequence data")),
-        h2("For different NGS platforms, read sizes and read numbers")
+        titlePanel(h1("FASTQ Size")),
+        h2("For different sequence properties and NGS platforms")
     ),
 
     br(),br(), br(),
