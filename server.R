@@ -54,12 +54,12 @@ shinyServer(function(input, output, session) {
       }
       else{
       sprintf("Maximum size of the FASTQ files produced in a single-end sequencing run of
-              the %s platform, generating %d reads of length %d. Please notice that
+              the %s platform, generating %s reads of length %s. Please notice that
               the file size will duplicate for the paired-end mode, which would
-              generate %d reads. The single and/or paired end modes can be available
+              generate %s reads. The single and/or paired end modes can be available
               for a given platform and chemistry combination.",
-      input$seq_platform, as.numeric(max_frags_lens()[[1]]),
-      as.numeric(input$length),max_frags_lens()[[1]]*2)
+      input$seq_platform, as.character(max_frags_lens()[[1]]),
+      as.character(input$length), as.character(max_frags_lens()[[1]]*2))
      }
   })
 
